@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, HelpCircle } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 interface FaqItem {
   question: string;
@@ -33,18 +33,18 @@ export function FaqSection() {
   ];
 
   return (
-    <section id="faq" className="py-16 lg:py-24 border-t border-white/[0.08] relative">
+    <section id="faq" className="py-16 lg:py-24 border-t border-slate-200 dark:border-white/[0.08] relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center mb-14">
-          <div className="text-xs font-semibold uppercase tracking-wider text-emerald-400 mb-2">
+          <div className="text-xs font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-2">
             Esclarece as Tuas Dúvidas
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-white tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-slate-900 dark:text-white tracking-tight">
             Perguntas Frequentes
           </h2>
-          <p className="mt-3 text-base text-slate-300">
+          <p className="mt-3 text-base text-slate-600 dark:text-slate-300">
             Tudo o que precisas de saber sobre encomendas, entregas e métodos de pagamento em Angola.
           </p>
         </div>
@@ -56,20 +56,22 @@ export function FaqSection() {
             return (
               <div
                 key={index}
-                className="rounded-2xl border border-white/10 bg-[#0C1222] overflow-hidden transition-all duration-200"
+                className="rounded-2xl border border-slate-200 dark:border-white/10 bg-white dark:bg-[#0C1222] overflow-hidden transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="w-full py-5 px-6 text-left flex items-center justify-between gap-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
+                  className="w-full py-5 px-6 text-left flex items-center justify-between gap-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 cursor-pointer"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-display font-semibold text-base sm:text-lg text-white">
+                  <span className="font-display font-semibold text-base sm:text-lg text-slate-900 dark:text-white">
                     {faq.question}
                   </span>
                   <div
-                    className={`w-7 h-7 rounded-full bg-white/5 flex items-center justify-center shrink-0 transition-transform duration-300 ${
-                      isOpen ? 'rotate-180 bg-emerald-500/20 text-emerald-400' : 'text-slate-400'
+                    className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-transform duration-300 ${
+                      isOpen
+                        ? 'rotate-180 bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-400'
+                        : 'bg-slate-100 dark:bg-white/5 text-slate-500 dark:text-slate-400'
                     }`}
                   >
                     <ChevronDown className="w-4 h-4" />
@@ -77,7 +79,7 @@ export function FaqSection() {
                 </button>
 
                 {isOpen && (
-                  <div className="px-6 pb-6 text-sm text-slate-300 leading-relaxed border-t border-white/5 pt-4">
+                  <div className="px-6 pb-6 text-sm text-slate-700 dark:text-slate-300 leading-relaxed border-t border-slate-100 dark:border-white/5 pt-4">
                     {faq.answer}
                   </div>
                 )}

@@ -42,14 +42,14 @@ export function Logo({ className = "h-9 w-auto", textClassName = "text-xl" }: { 
       {/* Brand Name Lockup */}
       <div className="flex flex-col">
         <div className="flex items-center gap-1.5 leading-none">
-          <span className={`font-display font-extrabold tracking-tight text-white ${textClassName}`}>
-            ACADÉMICO <span className="text-emerald-400">PRO</span>
+          <span className={`font-display font-extrabold tracking-tight text-slate-900 dark:text-white ${textClassName}`}>
+            ACADÉMICO <span className="text-emerald-600 dark:text-emerald-400">PRO</span>
           </span>
-          <span className="text-[10px] font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/25 text-emerald-300 font-mono">
+          <span className="text-[10px] font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/25 text-emerald-700 dark:text-emerald-300 font-mono">
             AO
           </span>
         </div>
-        <span className="text-[10px] tracking-wide text-slate-400 font-medium mt-0.5">
+        <span className="text-[10px] tracking-wide text-slate-500 dark:text-slate-400 font-medium mt-0.5">
           Trabalhos Escolares & Académicos
         </span>
       </div>
