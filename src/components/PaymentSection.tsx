@@ -142,7 +142,7 @@ export function PaymentSection() {
                 <div className="font-semibold text-slate-200">Como Pagar com MCX / IBAN:</div>
                 <div className="flex items-start gap-2">
                   <span className="text-indigo-400 font-bold">1.</span>
-                  <span>Pede o nosso IBAN oficial da Nota 20 AO no WhatsApp</span>
+                  <span>Pede o nosso IBAN oficial do Académico Pro no WhatsApp</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-indigo-400 font-bold">2.</span>

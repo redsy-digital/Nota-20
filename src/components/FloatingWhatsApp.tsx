@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 export function FloatingWhatsApp() {
-  const whatsappUrl = "https://wa.me/244955993656?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%20um%20trabalho%20escolar%20pela%20Nota%2020%20AO.";
+  const whatsappUrl = "https://wa.me/244955993656?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%20um%20trabalho%20escolar%20pelo%20Acad%C3%A9mico%20Pro.";
 
   return (
     <aside

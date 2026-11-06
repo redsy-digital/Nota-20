@@ -26,7 +26,7 @@ export function QuickOrderModal({ isOpen, onClose }: QuickOrderModalProps) {
 
     const formatLabel = format === 'digital' ? 'Apenas Digital (PDF + Word)' : 'Físico (Impresso + Encadernado em Luanda)';
 
-    const text = `Olá! Quero encomendar um trabalho na Nota 20 AO:%0A%0A*Nome:* ${encodeURIComponent(name || 'Estudante')}%0A*Instituição:* ${encodeURIComponent(institution || 'Não especificada')}%0A*Tipo de Trabalho:* ${encodeURIComponent(typeLabel)}%0A*Tema:* ${encodeURIComponent(theme || 'A definir')}%0A*Formato:* ${encodeURIComponent(formatLabel)}%0A*Data de Entrega:* ${encodeURIComponent(deadline || 'Normal')}%0A%0A_Aguardando orçamento e dados para pagamento via PayPay AO / Unitel Money._`;
+    const text = `Olá! Quero encomendar um trabalho no Académico Pro:%0A%0A*Nome:* ${encodeURIComponent(name || 'Estudante')}%0A*Instituição:* ${encodeURIComponent(institution || 'Não especificada')}%0A*Tipo de Trabalho:* ${encodeURIComponent(typeLabel)}%0A*Tema:* ${encodeURIComponent(theme || 'A definir')}%0A*Formato:* ${encodeURIComponent(formatLabel)}%0A*Data de Entrega:* ${encodeURIComponent(deadline || 'Normal')}%0A%0A_Aguardando orçamento e dados para pagamento via PayPay AO / Unitel Money._`;
 
     window.open(`https://wa.me/244955993656?text=${text}`, '_blank');
     onClose();

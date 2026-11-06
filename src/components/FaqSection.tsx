@@ -16,7 +16,7 @@ export function FaqSection() {
     },
     {
       question: "E se o meu professor solicitar alterações ou correções no trabalho?",
-      answer: "Fica descansado! Todas as encomendas na Nota 20 AO incluem até 2 rondas de revisões e ajustes totalmente gratuitos. Se o teu professor fizer observações sobre a estrutura, bibliografia ou conteúdo, basta enviares as anotações no WhatsApp e nós fazemos as devidas correções sem qualquer custo adicional."
+      answer: "Fica descansado! Todas as encomendas no Académico Pro incluem até 2 rondas de revisões e ajustes totalmente gratuitos. Se o teu professor fizer observações sobre a estrutura, bibliografia ou conteúdo, basta enviares as anotações no WhatsApp e nós fazemos as devidas correções sem qualquer custo adicional."
     },
     {
       question: "Como é garantido que o trabalho é 100% original e sem plágio?",

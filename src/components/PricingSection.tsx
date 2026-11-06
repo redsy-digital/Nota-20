@@ -175,7 +175,7 @@ export function PricingSection() {
     const formatLabel = calcFormat === 'digital' ? 'Apenas Digital (PDF + Word)' : 'Físico (Impresso + Encadernado)';
     const urgencyLabel = calcUrgency === 'urgente' ? 'Urgente (24h)' : 'Prazo Normal';
 
-    const msg = `Olá! Fiz uma simulação na Nota 20 AO:%0A- Tipo: ${typeLabel}%0A- Formato: ${formatLabel}%0A- Páginas estimadas: ${calcPages}%0A- Prazo: ${urgencyLabel}%0A- Estimativa: ${formattedEstimate}%0A%0AGostaria de confirmar a encomenda!`;
+    const msg = `Olá! Fiz uma simulação no Académico Pro:%0A- Tipo: ${typeLabel}%0A- Formato: ${formatLabel}%0A- Páginas estimadas: ${calcPages}%0A- Prazo: ${urgencyLabel}%0A- Estimativa: ${formattedEstimate}%0A%0AGostaria de confirmar a encomenda!`;
     return `https://wa.me/244955993656?text=${msg}`;
   };
 

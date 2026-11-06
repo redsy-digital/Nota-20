@@ -1,7 +1,7 @@
 import { MessageSquare, ArrowRight, CheckCircle2, ShieldCheck, Sparkles, Clock } from 'lucide-react';
 
 export function Hero() {
-  const whatsappUrl = "https://wa.me/244955993656?text=Ol%C3%A1%2C%20vi%20o%20vosso%20site%20da%20Nota%2020%20AO%20e%20quero%20encomendar%20um%20trabalho%20escolar%21";
+  const whatsappUrl = "https://wa.me/244955993656?text=Ol%C3%A1%2C%20vi%20o%20vosso%20site%20do%20Acad%C3%A9mico%20Pro%20e%20quero%20encomendar%20um%20trabalho%20escolar%21";
 
   return (
     <section className="relative overflow-hidden pt-8 pb-16 lg:pt-16 lg:pb-24">
@@ -26,7 +26,7 @@ export function Hero() {
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-white tracking-tight leading-[1.1] mb-6 text-balance">
-              Garante a tua melhor <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">Nota 20</span> sem noites em claro.
+              Garante a tua melhor nota com o <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">Académico Pro</span> sem noites em claro.
             </h1>
 
             {/* Sub-headline */}

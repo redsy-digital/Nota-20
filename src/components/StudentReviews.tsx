@@ -7,7 +7,7 @@ export function StudentReviews() {
       institution: "Universidade Católica de Angola (UCAN)",
       course: "Economia e Gestão · 4º Ano",
       grade: "Nota 19",
-      text: "Estava a trabalhar e sem tempo para concluir o meu relatório de estágio curricular. A equipa da Nota 20 AO organizou toda a estrutura teórica e prática com normas ABNT impecáveis. O orientador elogiou o trabalho e passei com 19 valores!",
+      text: "Estava a trabalhar e sem tempo para concluir o meu relatório de estágio curricular. A equipa do Académico Pro organizou toda a estrutura teórica e prática com normas ABNT impecáveis. O orientador elogiou o trabalho e passei com 19 valores!",
       format: "Formato Físico Encadernado em Luanda"
     },
     {

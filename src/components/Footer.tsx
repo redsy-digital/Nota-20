@@ -106,7 +106,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div>
-            &copy; {new Date().getFullYear()} Nota 20 AO. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Académico Pro. Todos os direitos reservados.
           </div>
           <div className="flex items-center gap-4">
             <span>Privacidade & Sigilo Garantido</span>

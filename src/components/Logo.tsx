@@ -43,7 +43,7 @@ export function Logo({ className = "h-9 w-auto", textClassName = "text-xl" }: { 
       <div className="flex flex-col">
         <div className="flex items-center gap-1.5 leading-none">
           <span className={`font-display font-extrabold tracking-tight text-white ${textClassName}`}>
-            NOTA <span className="text-emerald-400">20</span>
+            ACADÉMICO <span className="text-emerald-400">PRO</span>
           </span>
           <span className="text-[10px] font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/25 text-emerald-300 font-mono">
             AO

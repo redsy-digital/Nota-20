@@ -66,7 +66,7 @@ export default function App() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/244955993656?text=Ol%C3%A1%21%20Quero%20encomendar%20um%20trabalho%20escolar%20pela%20Nota%2020%20AO."
+                href="https://wa.me/244955993656?text=Ol%C3%A1%21%20Quero%20encomendar%20um%20trabalho%20escolar%20pelo%20Acad%C3%A9mico%20Pro."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 text-base font-extrabold text-slate-950 bg-emerald-400 hover:bg-emerald-300 rounded-xl shadow-xl shadow-emerald-500/25 transition-all active:scale-[0.98]"
