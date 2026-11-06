@@ -1,0 +1,6 @@
+{
+  "name": "Nota 20 AO - Trabalhos Escolares e Académicos em Angola",
+  "description": "Plataforma profissional de elaboração, digitação, formatação e impressão de trabalhos escolares, relatórios e monografias em Angola. Preços em Kwanzas, formatos Digital e Físico, pagamentos via PayPay AO e Unitel Money.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
